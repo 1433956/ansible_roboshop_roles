@@ -1,0 +1,13 @@
+- name: app_setup
+  include_role: 
+    name: common
+    tasks_from: app_setup
+- name: nodejs
+  include_role:
+    name: common
+    tasks_from: nodejs
+- name: systemd_service
+  include_role:
+    name: common
+    tasks_from: systemd.yaml
+    
