@@ -12,4 +12,4 @@
   register: mysql_output
 - name: password_setup
   ansible.builtin.debug:
-    msg: "{{ password_setup }}"
+    msg: "{{ mysql_output }}"
