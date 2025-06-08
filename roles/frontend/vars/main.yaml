@@ -1,0 +1,5 @@
+CATALOGUE_HOST: catalogue.devops73.site
+USER_HOST: user.devops73.site
+CART_HOST: cart.devops73.site
+SHIPPING_HOST: shipping.devops73.site
+PAYMENT_HOST: payment.devops73.site
